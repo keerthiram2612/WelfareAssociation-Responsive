@@ -81,6 +81,10 @@ a:focus {
     padding:0 60px;
     font-weight: bold;
 }
+.top-bar label:hover{
+    color: blue;
+    cursor: pointer;
+}
 
 .top-bar .social {
     display: flex;
@@ -179,6 +183,8 @@ a:focus {
     font-size: 70px;
     font-weight: 700;
     margin-bottom: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
 }
 
 .carousel .carousel-caption p {
@@ -193,9 +199,9 @@ a:focus {
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: white;
-    background: black;
-    border: 2px solid white;
+    color: black;
+    background: blue;
+    border: 2px solid black;
     border-radius: 5px;
     transition: .3s;
 }
@@ -323,10 +329,13 @@ a:focus {
     text-align: center;
     margin-bottom: 45px;
 }
-
+.service .service-item{
+     border-color: black;
+    border-style: solid;
+}
 .section-header h2 {
     margin: 0;
-    color: blue;
+    color: black;
     position: relative;
     font-size: 50px;
     font-weight: 700;
@@ -345,6 +354,7 @@ a:focus {
     border-top: 1px;
     border-bottom: 1px;
     z-index: -1;
+    
 }
 
 .section-header h2::after {
@@ -374,13 +384,14 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 45px 0 15px 0;
+   
 }
 
 .service .service-item {
     position: relative;
     width: 100%;
     text-align: center;
-    background: blue;
+    background: black;
     margin-bottom: 30px;
     border-radius: 30px;
 }
@@ -414,7 +425,7 @@ a:focus {
     padding: 25px 15px 15px 15px;
     font-size: 30px;
     font-weight: 600;
-    color: white;
+    color: blue;
 }
 
 .service .service-item p {
@@ -432,10 +443,10 @@ a:focus {
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: white;
+    color: black;
     border: 2px solid white;
     border-radius: 10px;
-    background: green;
+    background: blue;
     transition: .3s;
 }
 
@@ -466,6 +477,7 @@ a:focus {
     padding: 30px;
     background: #121518;
     overflow: hidden;
+    border-radius: 10px;
 }
 
 .testimonial .testimonial-item i {
@@ -735,13 +747,18 @@ a:focus {
 
 
 button{
-    color: whitesmoke;
+    color: black;
     background-color: blue;
     border-radius:20px;
     padding:5px 75px;
     font-size: 30px;
     margin: 0 400px;
     margin-top: 75px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button:hover{
+    background-color:  #aa9166;
+    color: black;
 }
 
 @media (max-width: 767.98px) {
